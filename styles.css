@@ -14,25 +14,28 @@ h2 {
     color:#db8a56;
     display:flex;
     justify-content:center;
+    font-weight:450;
 
 }
-dialogue {
+.dialogue {
     color: #dfaff6;
 }
 img {
     border-radius:17px;
     width:32%;
 
+
 }
 #slash {
     font-weight:900;
-    color:#9fc0c0; 
+    color:#A9A8A9; 
 }
 
 .center{
     display:flex;
     flex-direction:row;
     justify-content:left;
-    margin-left: 30.5%;
-    margin-right:30.5%;
+    margin-left: 25.5%;
+    margin-right:25.5%;
+    
 }
