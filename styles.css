@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 body {
-    background-color: #212121;
+    background-color: black;
     animation:infinite;
 }
 *{
@@ -15,7 +15,12 @@ h2 {
     display:flex;
     justify-content:center;
     font-weight:450;
-
+    position:sticky;
+    top:2vh;
+    margin-top:0vh;
+    margin-left: 25.5%;
+    margin-right:25.5%;
+    font-size: calc(1vw + .8vh);
 }
 .dialogue {
     color: #dfaff6;
@@ -23,7 +28,6 @@ h2 {
 img {
     border-radius:17px;
     width:32%;
-
 
 }
 #slash {
@@ -37,5 +41,21 @@ img {
     justify-content:left;
     margin-left: 25.5%;
     margin-right:25.5%;
+    position:relative;
     
+}
+.background {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left: 24.5%;
+    margin-right:24.5%;
+    width:50%;
+    height:1000px;
+    background-color:#212121;
+    position:sticky;
+    z-index:-1;
+    margin-top:-100vh;
+    top:0px;
+    margin-bottom:-4%;
 }
