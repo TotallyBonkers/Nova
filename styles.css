@@ -21,6 +21,7 @@ h2 {
     margin-left: 25.5%;
     margin-right:25.5%;
     font-size: calc(1vw + .8vh);
+    flex-wrap:nowrap;
 }
 .dialogue {
     color: #dfaff6;
