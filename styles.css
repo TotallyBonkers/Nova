@@ -60,3 +60,21 @@ img {
     top:0px;
     margin-bottom:-4%;
 }
+@media only screen and (max-width: 600px) {
+    .background {
+        margin-left: 0%;
+        margin-right: 0%;
+        width:100%;
+        margin-top:-100vh;
+    }
+    .center {
+    margin-left:0%;
+    margin-right:0%;
+    }
+    h2 {
+        margin-left: 0%;
+        margin-right:0%;
+        margin-bottom: 5vh;
+        font-size:100%;
+    }
+}
