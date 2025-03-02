@@ -1,80 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 body {
     background-color: black;
-    animation:infinite;
+    animation: infinite;
 }
-*{
+
+* {
     font-family: "Source Code Pro", serif;
 }
+
+.folder_tab,
+.folder {
+    margin: 0 auto;
+    background-color: #708090;
+}
+
+.folder_tab {
+    margin-bottom: -2vh;
+    width: 25%;
+    height: 5vh;
+    margin-right: 50%;
+    border-radius: 5px 15px 0 0;
+}
+
+.folder {
+    width: 50%;
+    height: 100%;
+    border-radius: 0 5px 5px 5px;
+}
+
 .gray {
     color: #A9A8A9;
     font-weight: 500;
 }
+
 h2 {
-    color:#db8a56;
-    display:flex;
-    justify-content:center;
-    font-weight:450;
-    position:sticky;
-    top:2vh;
-    margin-top:0vh;
+    color: #db8a56;
+    display: flex;
+    justify-content: center;
+    font-weight: 450;
+    position: sticky;
+    top: 2vh;
+    margin-top: 0vh;
     margin-left: 25.5%;
-    margin-right:25.5%;
+    margin-right: 25.5%;
     font-size: calc(1vw + .8vh);
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
 }
+
 .dialogue {
     color: #dfaff6;
 }
+
 img {
-    border-radius:17px;
-    width:32%;
+    border-radius: 17px;
+    width: 32%;
 
 }
+
 #slash {
-    font-weight:900;
-    color:#A9A8A9; 
+    font-weight: 900;
+    color: #A9A8A9;
 }
 
-.center{
-    display:flex;
-    flex-direction:row;
-    justify-content:left;
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
     margin-left: 25.5%;
-    margin-right:25.5%;
-    position:relative;
-    
+    margin-right: 25.5%;
+    position: relative;
+
 }
+
 .background {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 24.5%;
-    margin-right:24.5%;
-    width:50%;
-    height:100vh;
-    background-color:#212121;
-    position:sticky;
-    z-index:-1;
-    margin-top:-91vh;
-    top:0px;
-    margin-bottom:-4%;
+    margin-right: 24.5%;
+    width: 50%;
+    height: 100vh;
+    background-color: #212121;
+    position: sticky;
+    z-index: -1;
+    margin-top: -91vh;
+    top: 0px;
+    margin-bottom: -4%;
 }
+
 @media only screen and (max-width: 600px) {
     .background {
         margin-left: 0%;
         margin-right: 0%;
-        width:100%;
-        margin-top:-100vh;
+        width: 100%;
+        margin-top: -100vh;
     }
+
     .center {
-    margin-left:0%;
-    margin-right:0%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
+
     h2 {
         margin-left: 0%;
-        margin-right:0%;
+        margin-right: 0%;
         margin-bottom: 5vh;
-        font-size:100%;
+        font-size: 100%;
     }
 }
