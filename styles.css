@@ -52,11 +52,11 @@ img {
     margin-left: 24.5%;
     margin-right:24.5%;
     width:50%;
-    height:1000px;
+    height:100vh;
     background-color:#212121;
     position:sticky;
     z-index:-1;
-    margin-top:-100vh;
+    margin-top:-91vh;
     top:0px;
     margin-bottom:-4%;
 }
