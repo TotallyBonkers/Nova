@@ -18,7 +18,7 @@ body {
 .folder_tab {
     margin-bottom: -2vh;
     width:calc(10vw + .8vh);
-    height: 5vh;
+    height: 5.5vh;
     margin-right:65.25%;
     margin-left:25.5%;
     border-radius: 2vh 2vh 0 0;
@@ -45,7 +45,7 @@ body {
         justify-content:center;
         font-size: calc(1vw + .8vh);
         text-wrap:nowrap;
-        margin-top:-2%;
+        margin-top:-1%;
         color:#80ADB7;
         font-weight:600;
 
@@ -56,10 +56,15 @@ body {
     top:2%;
     text-wrap:wrap;
     color:#80ADB7;
-    font-weight:600;
+    font-weight:650;
     font-size:large;
 }
-.snapshot_text {
+.log_img {
+    width:35vw;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+#snapshot_text {
 
 }
 .gray {
@@ -80,6 +85,7 @@ h2 {
     font-size: calc(1vw + .8vh);
     flex-wrap: nowrap;
     background-color:#212121;
+    z-index:2;
 }
 
 .dialogue {
