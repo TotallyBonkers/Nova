@@ -62,7 +62,7 @@ body {
 .log_img {
     width:35vw;
     margin-top:3px;
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 #snapshot_text {
     background-color:#1A315C;
@@ -99,7 +99,7 @@ h2 {
 }
 
 .dialogue {
-    color: #dfaff6;
+    color: #b279cc;
 }
 
 img {
