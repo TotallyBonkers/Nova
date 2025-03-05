@@ -71,7 +71,6 @@ body {
     border-width:.3vh;
     border-radius:1vh;
     padding-right:2.5vh;
-    margin-top:100px;
 }
 .gray {
     color: #A9A8A9;
@@ -99,7 +98,7 @@ h2 {
 }
 
 img {
-    border-radius: 17px;
+    border-radius: 1.5vh;
     width: 32%;
 
 }
