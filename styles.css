@@ -17,7 +17,7 @@ body {
 
 .folder_tab {
     margin-bottom: -2vh;
-    width: 9%;
+    width:calc(10vw + .8vh);
     height: 5vh;
     margin-right:65.25%;
     margin-left:25.5%;
@@ -43,9 +43,24 @@ body {
 .tab_text {
         display:flex;
         justify-content:center;
-        font-size: calc(1vw + .7vh);
-        flex-wrap: nowrap;
+        font-size: calc(1vw + .8vh);
+        text-wrap:nowrap;
         margin-top:-2%;
+        color:#80ADB7;
+        font-weight:600;
+
+}
+.log_text {
+    padding-left:2%;
+    padding-right:2%;
+    top:2%;
+    text-wrap:wrap;
+    color:#80ADB7;
+    font-weight:600;
+    font-size:large;
+}
+.snapshot_text {
+
 }
 .gray {
     color: #A9A8A9;
@@ -64,6 +79,7 @@ h2 {
     margin-right: 25.5%;
     font-size: calc(1vw + .8vh);
     flex-wrap: nowrap;
+    background-color:#212121;
 }
 
 .dialogue {
@@ -90,11 +106,7 @@ img {
     position: relative;
 
 }
-.logtext {
-    padding-left:2%;
-    padding-right:2%;
-    top:2%;
-    text-wrap:wrap;}
+
 
 .background {
     display: flex;
@@ -130,5 +142,22 @@ img {
         margin-right: 0%;
         margin-bottom: 5vh;
         font-size: 100%;
+    }
+    img {
+        width:70%;
+    }
+    .folder {
+        margin-left: 2%;
+        margin-right: 2%;
+        width:90%;
+    }
+    .folder_tab {
+        margin-left:2%;
+        margin-right:2%;
+        width:calc(30vw + .8vh);
+    }
+    .tab_text {
+        font-size: calc(3vw + .8vh);
+        text-wrap:nowrap;
     }
 }
