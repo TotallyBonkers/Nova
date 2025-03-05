@@ -61,11 +61,17 @@ body {
 }
 .log_img {
     width:35vw;
-    margin-top:10px;
+    margin-top:3px;
     margin-bottom:5px;
 }
 #snapshot_text {
-
+    background-color:#1A315C;
+    border-color:#6ACFF6;
+    border-style:solid;
+    border-width:.3vh;
+    border-radius:1vh;
+    padding-right:2.5vh;
+    margin-top:100px;
 }
 .gray {
     color: #A9A8A9;
