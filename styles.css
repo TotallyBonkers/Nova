@@ -79,6 +79,36 @@ body {
     font-weight: 500;
 }
 
+.green {
+    color:#75b96b;
+    font-weight: 650;
+}
+
+.red {
+    color: #c81e1e;
+    font-weight: 650;
+}
+
+.aqua {
+    color:#4ee7e7;
+}
+
+.special {
+    color:#dbb3f9;
+}
+
+.stellar {
+    color:#f1f4bd;
+}
+
+.technology {
+    color:#bbccf8;
+}
+
+.green2 {
+    color: #98da87;
+}
+
 h2 {
     color: #db8a56;
     display: flex;
