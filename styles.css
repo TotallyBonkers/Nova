@@ -15,6 +15,13 @@ body {
     background-color: #374166;
 }
 
+.personal_folder_tab,
+.personal_folder {
+    margin: 0 auto;
+    background-color: #141414
+}
+
+
 .folder_tab {
     margin-bottom: -2vh;
     width:calc(10vw + .8vh);
@@ -41,13 +48,13 @@ body {
     z-index:0;
 }
 .tab_text {
-        display:flex;
-        justify-content:center;
-        font-size: calc(1vw + .8vh);
-        text-wrap:nowrap;
-        margin-top:-1%;
-        color:#80ADB7;
-        font-weight:600;
+    display:flex;
+     justify-content:center;
+     font-size: calc(1vw + .8vh);
+     text-wrap:nowrap;
+     margin-top:-1%;
+     color:#80ADB7;
+     font-weight:600;
 
 }
 .log_text {
@@ -170,6 +177,83 @@ img {
     margin-bottom: -4%;
 }
 
+.personal_folder_tab {
+    margin-bottom: -2vh;
+    width:calc(7.5vw + .8vh);
+    height: 5.5vh;
+    margin-right:65.25%;
+    margin-left:25.5%;
+    border-radius: 2vh 2vh 0 0;
+    border-style:solid;
+    border-color:#363636;
+    border-width:.5vh;
+    border-bottom:#374166;
+    font-size:x-large;
+}
+.personal_tab_text {
+    display:flex;
+     justify-content:center;
+     font-size: calc(1vw + .8vh);
+     text-wrap:nowrap;
+     margin-top:-1%;
+     color:#dbb3f9;
+     font-weight:600;
+}
+.personal_folder {
+    width: 40%;
+    height: 100%;
+    border-radius: 0 2vh 2vh 2vh;
+    margin-left: 25.5%;
+    margin-right: 25.5%;
+    border-style:solid;
+    border-color:#363636;
+    border-width:.5vh;
+    z-index:0;
+}
+.personal_log_text {
+    padding-left:2%;
+    padding-right:2%;
+    top:2%;
+    text-wrap:wrap;
+    color:rgb(216, 216, 216);
+    font-weight:500;
+    font-size:large;
+}
+#personal_snapshot_text {
+    background-color:#212121;
+    color:#dbb3f9;
+    border-color:#363636;
+    border-style:solid;
+    border-width:.3vh;
+    border-radius:1vh;
+    padding-right:2.5vh;
+    display:inline-block;
+    margin-top:2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
     .background {
         margin-left: 0%;
@@ -193,17 +277,20 @@ img {
     img {
         width:70%;
     }
-    .folder {
+    .folder,
+    .personal_folder {
         margin-left: 2%;
         margin-right: 2%;
         width:90%;
     }
-    .folder_tab {
+    .folder_tab,
+    .personal_folder_tab {
         margin-left:2%;
         margin-right:2%;
         width:calc(30vw + .8vh);
     }
-    .tab_text {
+    .tab_text,
+    .personal_tab_text {
         font-size: calc(3vw + .8vh);
         text-wrap:nowrap;
     }
